@@ -17,11 +17,12 @@ color: #FFFFFF;
 background-color: #1d1d1d;
 }
 
-
 #main #main-header.overlay-header {
     border-bottom: 2px solid #1f1f1f;
     background-color: #121212;
 }
+
+
 /************************#main background************************/
 
 /*Hide Page Meta Data ul */
@@ -30,10 +31,40 @@ background-color: #1d1d1d;
 display: none;
 }
 
-
 #main.aui-page-panel {
     border-top: 0;
     background-color: #1f1f1f;
+}
+
+
+/************************Banner, Search, Featured Content, Quick View Diagrams (tabs)************************/
+
+#marketo-banner {
+    background-color: #121212;
+    padding: 20px 10px 5px 10px;
+}
+
+#banner-search {
+    background-color: #121212;
+    padding: 5px 10px 20px 10px;
+}
+
+#featured-content {
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    background-color: #121212;
+}
+
+#body-diagram-tabs {
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    background-color: #121212;
+}
+
+#tableGlossary {
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    background-color: #121212;
 }
 
 #title-text a {
@@ -45,7 +76,7 @@ color: #d9d9d9
 }
 
 table.confluenceTable th.confluenceTh {
-background-color: #121212
+    background-color: #121212
 }
 
 /************************Sidebar************************/
@@ -118,7 +149,7 @@ color: #FFFFFF
 background-color: #000000
 }
 
-li.acs-nav-item .acs-nav-item-link:hover { 
+li.acs-nav-item .acs-nav-item-link:hover {
 background-color: #000000
 }
 
@@ -170,7 +201,7 @@ color: #FFFFFF
 }
 
 .aui-dropdown2.aui-style-default {
-    background: #121212;
+    background: #1f1f1f;
     border: 0 solid #dfe1e6;
     border-radius: 3px;
     color: #FFFFFF;
@@ -185,9 +216,13 @@ color: #FFFFFF
 
 
 /******Button Group Buttons******/
-.aui-button.aui-button-primary, .aui-button.aui-button-primary:visited {
-    background-image: none;
+#erd-button-group {
+    padding: 10px 10px 10px 10px;
+}
+
+.wiki-content a.contentf-button.aui-button-primary {
     background-color: #9965f4;
+    color: #FFFFFF !important;
 }
 
 .aui-button.aui-button-primary:hover {

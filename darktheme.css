@@ -1,0 +1,302 @@
+/************************Top Nav Bar************************/
+
+/*edit, save for later, watch, share buttons*/
+
+#header .aui-header {
+background-color: #000000
+}
+.aui-button.aui-button-subtle {
+    background-color: #000000;
+    border-color: transparent;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.aui-button-subtle.aui-button:hover {
+color: #FFFFFF;
+background-color: #1d1d1d;
+}
+
+
+#main #main-header.overlay-header {
+    border-bottom: 2px solid #1f1f1f;
+    background-color: #121212;
+}
+/************************#main background************************/
+
+/*Hide Page Meta Data ul */
+
+.page-metadata ul {
+display: none;
+}
+
+
+#main.aui-page-panel {
+    border-top: 0;
+    background-color: #1f1f1f;
+}
+
+#title-text a {
+color: #FFFFFF
+}
+
+p {
+color: #d9d9d9
+}
+
+table.confluenceTable th.confluenceTh {
+background-color: #121212
+}
+
+/************************Sidebar************************/
+
+.acs-side-bar-space-info .avatar-img-container .avatar-img-wrapper img.avatar-img, #image-holder .small-logo-wrapper img {
+    max-width: 48px;
+    max-height: 48px;
+    display: block;
+    border: 0;
+    margin: auto;
+    background-color: unset;
+}
+.acs-side-bar {
+background-color: #121212
+}
+
+/*Space Favorite Icon */
+.space-favourite {
+    position: absolute;
+    right: 10px;
+    top: 31px;
+    background-color: transparent;
+    color: #BB86FC;
+    cursor: pointer;
+}
+
+/*Sidebar Text*/
+
+.acs-nav-sections .ia-quick-links-header-title, .acs-nav-sections .quick-links-header h5, .ia-quick-links-header-title {
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: 0;
+    color: #BB86FC;
+}
+
+div.ia-secondary-header h5 {
+color: #BB86FC
+}
+
+
+.acs-side-bar .tip {
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 10px 10px;
+    color: #FFFFFF;
+}
+
+div.plugin_pagetree .plugin_pagetree_childtoggle_container>.aui-icon {
+    color: #BB86FC;
+}
+
+div.plugin_pagetree_childtoggle_container>.no-children.icon {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    left: 6px;
+    top: 50%;
+    margin-top: -5px;
+    min-width: 0;
+    border-radius: 2px;
+    background-color: #BB86FC;
+}
+
+/**/
+.acs-nav-list .acs-nav-item-label {
+color: #FFFFFF
+}
+
+.acs-side-bar .current-item .acs-nav-item-link {
+background-color: #000000
+}
+
+li.acs-nav-item .acs-nav-item-link:hover { 
+background-color: #000000
+}
+
+
+.acs-side-bar-space-info a, .acs-side-bar .tip, .ia-secondary-container a {
+    color: #FFFFFF;
+}
+
+
+/*Space Tools*/
+
+.space-tools-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    border-color: #121212
+}
+
+
+.aui-button-label {
+    margin-left: 4px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.aui-button-label:hover {
+color: #FFFFFF;
+}
+
+.aui-button .aui-icon {
+color: #BB86FC;
+}
+
+.aui-button:hover .aui-icon {
+    color: #FFFFFF;
+}
+
+.aui-button:active .aui-icon {
+color: #FFFFFF
+}
+
+
+.expand-collapse-trigger {
+    position: absolute;
+    top: 14px;
+    right: 32px;
+    color: #b794f6;
+}
+
+.aui-dropdown2.aui-style-default {
+    background: #121212;
+    border: 0 solid #dfe1e6;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 3px 0;
+}
+
+
+.aui-dropdown2.aui-style-default [role="menuitem"] {
+color: #FFFFFF
+}
+
+
+
+/******Button Group Buttons******/
+.aui-button.aui-button-primary, .aui-button.aui-button-primary:visited {
+    background-image: none;
+    background-color: #9965f4;
+}
+
+.aui-button.aui-button-primary:hover {
+	background-color: #9965f4
+}
+
+/* Create from Template buttons */
+#main-content a.create-from-template-button {
+	color: #FFFFFF;
+	background-color: #9965f4;
+	font-weight: 600
+}
+
+
+#main-content a.create-from-template-button:hover {
+	background-color: #9965f4
+}
+
+hr {
+	border: none;
+	border-bottom: 2px solid #9965f4;
+}
+
+.wiki-content h5 {
+	color: #d9d9d9
+}
+
+
+
+
+
+/******Table Glossary******/
+
+/*expand icon color*/
+.expand-control-icon {
+   color: #d9d9d9
+}
+
+/*expand text color*/
+.expand-control-text {
+   color: #d9d9d9;
+   font-weight: 600;
+}
+
+
+/*Tab Text*/
+
+/*active tab*/
+.aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:link, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:visited, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:focus, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:hover, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:active {
+   color: #BB86FC
+}
+
+.aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a::after {
+   background: #BB86FC
+}
+/*passive tabs*/
+.aui-tabs>.tabs-menu .menu-item a, .aui-tabs>.tabs-menu .menu-item a:link, .aui-tabs>.tabs-menu .menu-item a:visited {
+   color: #d9d9d9
+}
+
+.aui-tabs.horizontal-tabs>.tabs-menu::after {
+   background: #d9d9d9
+}
+
+/*Table Description body*/
+
+.expand-container .expand-content {
+    background-color: #121212 !important;
+}
+
+
+.expand-container expand-hidden {
+background-color: #1f1f1f;
+}
+.tabs-pane p>span {
+color: #d9d9d9 !important
+}
+
+div.localtabs-macro div.tabs-pane.active-pane {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #121212;
+}
+p strong>span {
+    color: #d9d9d9 !important;
+}
+
+.wiki-content ul {
+color: #9965f4
+}
+
+
+.wiki-content p {
+    color: #d9d9d9;
+}
+
+/******Footer******/
+
+#footer {
+background-color: #000000;
+color: #d9d9d9;
+}
+
+#footer-logo {
+background-color: #000000
+}
+
+a#lim-feedback-trigger {
+    color: #d9d9d9 !important;
+    background-color: #121212;
+    border: none;
+}

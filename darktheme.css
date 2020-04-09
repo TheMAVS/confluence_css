@@ -263,6 +263,10 @@ li.acs-nav-item .acs-nav-item-link:hover {
 
 
 /******Button Group Buttons******/
+#erd-button-group {
+    padding: 10px 10px 10px 10px;
+}
+
 .aui-button.aui-button-primary, .aui-button.aui-button-primary:visited {
     background-image: none;
     background-color: var(--button-bg);

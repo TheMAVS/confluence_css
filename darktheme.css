@@ -83,6 +83,10 @@ background-color: #1d1d1d;
     padding: 5px 10px 20px 10px;
 }
 
+.search-macro .search-macro-dropdown li a {
+    color: var(--body-text)
+}
+
 #featured-content {
     background-color: var(--body-section);
     opacity: 100%;

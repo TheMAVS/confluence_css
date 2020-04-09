@@ -361,7 +361,7 @@ hr {
 div.localtabs-macro div.tabs-pane.active-pane {
     padding-top: 10px;
     padding-bottom: 15px;
-    background-color: var(--glossary-bg);
+    background-color: var(--body-bg);
 }
 
 p strong>span {

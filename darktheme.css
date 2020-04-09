@@ -39,14 +39,14 @@ html {
     background-color: var(--navbar-bg)
 }
 
-.aui-button.aui-button-subtle {
+.aui-button-subtle.aui-button {
     background-color: var(--button-bg);
     border-color: transparent;
     color: var(--button-text);
     font-weight: 400;
 }
 
-.aui-button.aui-button-subtle:hover {
+.aui-button-subtle.aui-button:hover {
     background-color: var(--button-hover);
     color: var(--button-text)
 }

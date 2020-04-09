@@ -42,7 +42,7 @@ html {
 .acs-side-bar-space-info a {
     color: var(--sb-text-color)
 }
-
+/*
 .aui-button-subtle.aui-button {
     background-color: var(--button-bg);
     border-color: transparent;
@@ -54,7 +54,7 @@ html {
     background-color: var(--button-hover);
     color: var(--button-text)
 }
-
+*/
 
 #main #main-header.overlay-header {
    /* border-bottom: 2px solid #1f1f1f;*/
@@ -224,7 +224,7 @@ li.acs-nav-item .acs-nav-item-link:hover {
     background-color: var(--navbar-bg);
 /*    border-color: #121212 */
 }
-/*
+
 .aui-button .aui-icon {
     color: var(--button-text);
 }
@@ -238,7 +238,7 @@ li.acs-nav-item .acs-nav-item-link:hover {
 .aui-button:hover {
     background-color: var(--button-hover);
 }
-*/
+
 .expand-collapse-trigger {
     position: absolute;
     top: 14px;

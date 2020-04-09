@@ -205,7 +205,7 @@ li.acs-nav-item .acs-nav-item-link:hover {
 }
 
 
-.acs-side-bar-space-info a, .acs-side-bar .tip {
+.acs-side-bar .tip {
     color: var(--sb-text-heading);
 }
 

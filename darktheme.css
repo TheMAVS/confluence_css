@@ -57,9 +57,10 @@ html {
 
 
 #main #main-header.overlay-header {
-    border-bottom: 2px solid var(--button-bg);
+    border-bottom: 2px solid;
+    border-color: var(--button-bg);
     background-color: var(--body-bg);
-    opacity: 89%;
+    opacity: 95%;
 }
 /************************#main background************************/
 

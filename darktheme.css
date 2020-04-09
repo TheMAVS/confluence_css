@@ -371,6 +371,7 @@ color: var(--glossary-accent)
 
 .wiki-content p {
     color: var(--glossary-text);
+    opacity: 89%;
 }
 
 /******Footer******/

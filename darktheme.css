@@ -225,7 +225,7 @@ li.acs-nav-item .acs-nav-item-link:hover {
 /*    border-color: #121212 */
 }
 
-.aui-button .aui-icon {
+.aui-button .aui-icon, .aui-icon:hover {
     color: var(--button-text);
 }
 

@@ -1,83 +1,85 @@
+
+/*Variables -- Light Theme*/
+html {
+    /*NAV BAR Variables*/
+    --navbar-bg: #000000;
+
+    /*SIDEBAR Variables*/
+    --sidebar-bg: #121212;
+    --sb-text-heading: #BB86FC;
+    --sb-text-color: #ffffff;
+    --sb-accents: #BB86FC;
+    --sb-active: #000000;
+    /*Body Content Variables*/
+    --body-bg: #000000;
+    --body-section: #272727;
+    --body-text: #ffffff;
+    --body-accents: #BB86FC;
+
+    /*Button Variables*/
+    --button-bg: #7E57C2;
+    --button-text: #ffffff;
+    --button-hover: #4527A0;
+
+    /*Table Glossary*/
+    --glossary-bg: #878787;
+    --glossary-text: #000000;
+    --glossary-accent: #4527A0;
+
+    /*Footer*/
+    --footer-bg: #000000;
+    --footer-text: #ffffff;
+}
+
 /************************Top Nav Bar************************/
 
 /*edit, save for later, watch, share buttons*/
 
 #header .aui-header {
-background-color: #000000
-}
-.aui-button.aui-button-subtle {
-    background-color: #000000;
-    border-color: transparent;
-    color: #FFFFFF;
-    font-weight: 400;
+background-color: var(--navbar-bg)
 }
 
+.aui-button.aui-button-subtle {
+    background-color: var(--button-bg);
+    border-color: transparent;
+    color: var(--button-text);
+    font-weight: 400;
+}
+/*
 .aui-button-subtle.aui-button:hover {
 color: #FFFFFF;
 background-color: #1d1d1d;
 }
+*/
 
 #main #main-header.overlay-header {
-    border-bottom: 2px solid #1f1f1f;
-    background-color: #121212;
+   /* border-bottom: 2px solid #1f1f1f;*/
+    background-color: var(--body-bg);
 }
-
-
 /************************#main background************************/
 
 /*Hide Page Meta Data ul */
-
 .page-metadata ul {
 display: none;
 }
 
 #main.aui-page-panel {
     border-top: 0;
-    background-color: #1f1f1f;
-}
-
-
-/************************Banner, Search, Featured Content, Quick View Diagrams (tabs)************************/
-
-#marketo-banner {
-    background-color: #121212;
-    padding: 20px 10px 5px 10px;
-}
-
-#banner-search {
-    background-color: #121212;
-    padding: 5px 10px 20px 10px;
-}
-
-#featured-content {
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 20px;
-    background-color: #121212;
-}
-
-#body-diagram-tabs {
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 20px;
-    background-color: #121212;
-}
-
-#tableGlossary {
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 20px;
-    background-color: #121212;
+    background-color: var(--body-bg);
 }
 
 #title-text a {
-color: #FFFFFF
+    color: var(--body-text)
 }
 
 p {
-color: #d9d9d9
+    color: var(--body-text)
 }
-
+/*
 table.confluenceTable th.confluenceTh {
     background-color: #121212
 }
+*/
 
 /************************Sidebar************************/
 
@@ -89,8 +91,9 @@ table.confluenceTable th.confluenceTh {
     margin: auto;
     background-color: unset;
 }
+
 .acs-side-bar {
-background-color: #121212
+background-color: var(--sidebar-bg)
 }
 
 /*Space Favorite Icon */
@@ -99,7 +102,7 @@ background-color: #121212
     right: 10px;
     top: 31px;
     background-color: transparent;
-    color: #BB86FC;
+    color: var(--sb-text-color);
     cursor: pointer;
 }
 
@@ -109,23 +112,22 @@ background-color: #121212
     display: inline-block;
     padding: 0 10px;
     margin-left: 0;
-    color: #BB86FC;
+    color: var(--sb-text-heading);
 }
 
 div.ia-secondary-header h5 {
-color: #BB86FC
+color: var(--sb-text-heading)
 }
-
 
 .acs-side-bar .tip {
     line-height: 20px;
     font-size: 12px;
     padding: 0 10px 10px;
-    color: #FFFFFF;
+    color: var(--sb-text-color);
 }
 
 div.plugin_pagetree .plugin_pagetree_childtoggle_container>.aui-icon {
-    color: #BB86FC;
+    color: var(--sb-accents);
 }
 
 div.plugin_pagetree_childtoggle_container>.no-children.icon {
@@ -137,25 +139,27 @@ div.plugin_pagetree_childtoggle_container>.no-children.icon {
     margin-top: -5px;
     min-width: 0;
     border-radius: 2px;
-    background-color: #BB86FC;
+    background-color: var(--sb-accents);
 }
 
 /**/
 .acs-nav-list .acs-nav-item-label {
-color: #FFFFFF
+color: var(--sb-text-color)
 }
+
 
 .acs-side-bar .current-item .acs-nav-item-link {
-background-color: #000000
+background-color: var(--sb-active)
 }
 
+
 li.acs-nav-item .acs-nav-item-link:hover {
-background-color: #000000
+background-color: var(--button-hover);
 }
 
 
 .acs-side-bar-space-info a, .acs-side-bar .tip, .ia-secondary-container a {
-    color: #FFFFFF;
+    color: var(--sb-text-heading);
 }
 
 
@@ -165,31 +169,31 @@ background-color: #000000
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #000000;
-    border-color: #121212
+    background-color: var(--navbar-bg);
+/*    border-color: #121212 */
 }
 
 
 .aui-button-label {
     margin-left: 4px;
-    color: #FFFFFF;
+    color: var(--button-text);
     font-weight: 600;
 }
 
 .aui-button-label:hover {
-color: #FFFFFF;
+    color: var(--button-hover);
 }
 
 .aui-button .aui-icon {
-color: #BB86FC;
+    color: var(--button-text);
 }
 
 .aui-button:hover .aui-icon {
-    color: #FFFFFF;
+    color: var(--button-hover);
 }
 
 .aui-button:active .aui-icon {
-color: #FFFFFF
+    color: var(--button-hover);
 }
 
 
@@ -197,57 +201,57 @@ color: #FFFFFF
     position: absolute;
     top: 14px;
     right: 32px;
-    color: #b794f6;
+    color: var(--sb-text-color);
 }
 
 .aui-dropdown2.aui-style-default {
-    background: #1f1f1f;
+    background: var(--navbar-bg);
     border: 0 solid #dfe1e6;
     border-radius: 3px;
-    color: #FFFFFF;
+    color: var(--sb-text-color);
     padding: 3px 0;
 }
 
 
 .aui-dropdown2.aui-style-default [role="menuitem"] {
-color: #FFFFFF
+    color: var(--sb-text-color)
 }
 
 
 
 /******Button Group Buttons******/
-#erd-button-group {
-    padding: 10px 10px 10px 10px;
-}
-
-.wiki-content a.contentf-button.aui-button-primary {
-    background-color: #9965f4;
-    color: #FFFFFF !important;
+.aui-button.aui-button-primary, .aui-button.aui-button-primary:visited {
+    background-image: none;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    opacity: 100%;
+    font-weight: 600;
 }
 
 .aui-button.aui-button-primary:hover {
-	background-color: #9965f4
+	background-color: var(--button-hover)
 }
 
 /* Create from Template buttons */
 #main-content a.create-from-template-button {
-	color: #FFFFFF;
-	background-color: #9965f4;
+	color: var(--button-text);
+	background-color: var(--button-bg);
+    opacity: 100%;
 	font-weight: 600
 }
 
 
 #main-content a.create-from-template-button:hover {
-	background-color: #9965f4
+	background-color: var(--button-hover)
 }
 
 hr {
 	border: none;
-	border-bottom: 2px solid #9965f4;
+	border-bottom: 2px solid var(--body-accents);
 }
 
 .wiki-content h5 {
-	color: #d9d9d9
+	color: var(--body-text)
 }
 
 
@@ -257,81 +261,84 @@ hr {
 /******Table Glossary******/
 
 /*expand icon color*/
+/*
 .expand-control-icon {
    color: #d9d9d9
 }
-
+*/
 /*expand text color*/
+/*
 .expand-control-text {
    color: #d9d9d9;
    font-weight: 600;
 }
-
+*/
 
 /*Tab Text*/
 
 /*active tab*/
 .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:link, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:visited, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:focus, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:hover, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a:active {
-   color: #BB86FC
+   color: var(--body-accents);
 }
 
 .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab a::after {
-   background: #BB86FC
+   background: var(--body-accents)
 }
 /*passive tabs*/
 .aui-tabs>.tabs-menu .menu-item a, .aui-tabs>.tabs-menu .menu-item a:link, .aui-tabs>.tabs-menu .menu-item a:visited {
-   color: #d9d9d9
+   color: var(--body-text)
 }
 
 .aui-tabs.horizontal-tabs>.tabs-menu::after {
-   background: #d9d9d9
+   background: var(--body-text)
 }
 
 /*Table Description body*/
 
 .expand-container .expand-content {
-    background-color: #121212 !important;
+    background-color: var(--body-bg) !important;
 }
-
-
+/*
 .expand-container expand-hidden {
 background-color: #1f1f1f;
 }
+*/
 .tabs-pane p>span {
-color: #d9d9d9 !important
+    color: var(--body-text) !important
 }
 
 div.localtabs-macro div.tabs-pane.active-pane {
     padding-top: 10px;
     padding-bottom: 15px;
-    background-color: #121212;
+    background-color: var(--glossary-bg);
 }
+
 p strong>span {
-    color: #d9d9d9 !important;
+    color: var(--glossary-text) !important;
 }
 
 .wiki-content ul {
-color: #9965f4
+color: var(--glossary-accent)
 }
 
 
 .wiki-content p {
-    color: #d9d9d9;
+    color: var(--glossary-text);
 }
 
 /******Footer******/
 
 #footer {
-background-color: #000000;
-color: #d9d9d9;
+background-color: var(--footer-bg);
+color: var(--footer-text);
 }
 
 #footer-logo {
-background-color: #000000
+background-color: var(--footer-logo)
 }
 
 a#lim-feedback-trigger {
-    color: #d9d9d9 !important;
-    background-color: #121212;
+    color: var(--footer-text) !important;
+    background-color: var(--footer-bg);
     border: none;
 }

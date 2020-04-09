@@ -139,7 +139,7 @@ table.confluenceTable th.confluenceTh {
 }
 
 .acs-side-bar {
-background-color: var(--sidebar-bg)
+    background-color: var(--sidebar-bg)
 }
 
 /*Space Favorite Icon */
@@ -226,6 +226,9 @@ li.acs-nav-item .acs-nav-item-link:hover {
 /*    border-color: #121212 */
 }
 
+.aui-button .aui-icon {
+    color: var(--button-text);
+}
 
 .aui-button-label {
     margin-left: 4px;
@@ -234,21 +237,12 @@ li.acs-nav-item .acs-nav-item-link:hover {
 }
 
 .aui-button-label:hover {
-    color: var(--button-hover);
-}
-
-.aui-button .aui-icon {
-    color: var(--button-text);
+    background-color: var(--button-hover);
 }
 
 .aui-button:hover .aui-icon {
-    color: var(--button-hover);
+    background-color: var(--button-hover);
 }
-
-.aui-button:active .aui-icon {
-    color: var(--button-hover);
-}
-
 
 .expand-collapse-trigger {
     position: absolute;

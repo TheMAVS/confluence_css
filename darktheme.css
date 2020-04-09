@@ -60,20 +60,58 @@ background-color: #1d1d1d;
 
 /*Hide Page Meta Data ul */
 .page-metadata ul {
-display: none;
+    display: none;
 }
 
 #main.aui-page-panel {
     border-top: 0;
     background-color: var(--body-bg);
+    opacity: 94%;
+}
+
+/************************Banner, Search, Featured Content, Quick View Diagrams (tabs)************************/
+
+#marketo-banner {
+    background-color: var(--body-section);
+    opacity: 45%;
+    padding: 20px 10px 5px 10px;
+}
+
+#banner-search {
+    background-color: var(--body-section);
+    opacity: 45%;
+    padding: 5px 10px 20px 10px;
+}
+
+#featured-content {
+    background-color: var(--body-section);
+    opacity: 45%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#body-diagram-tabs {
+    background-color: var(--body-section);
+    opacity: 45%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#tableGlossary {
+    background-color: var(--body-section);
+    opacity: 45%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
 }
 
 #title-text a {
-    color: var(--body-text)
+    color: var(--body-text);
+    opacity: 88%;
 }
 
 p {
-    color: var(--body-text)
+    color: var(--body-text);
+    opacity: 88%;
 }
 /*
 table.confluenceTable th.confluenceTh {
@@ -102,7 +140,7 @@ background-color: var(--sidebar-bg)
     right: 10px;
     top: 31px;
     background-color: transparent;
-    color: var(--sb-text-color);
+    color: var(--sb-accents);
     cursor: pointer;
 }
 
@@ -116,7 +154,7 @@ background-color: var(--sidebar-bg)
 }
 
 div.ia-secondary-header h5 {
-color: var(--sb-text-heading)
+    color: var(--sb-text-heading)
 }
 
 .acs-side-bar .tip {
@@ -124,6 +162,7 @@ color: var(--sb-text-heading)
     font-size: 12px;
     padding: 0 10px 10px;
     color: var(--sb-text-color);
+    opacity: 89%;
 }
 
 div.plugin_pagetree .plugin_pagetree_childtoggle_container>.aui-icon {
@@ -144,22 +183,28 @@ div.plugin_pagetree_childtoggle_container>.no-children.icon {
 
 /**/
 .acs-nav-list .acs-nav-item-label {
-color: var(--sb-text-color)
+    color: var(--sb-text-color);
+    opacity: 89%;
 }
 
 
 .acs-side-bar .current-item .acs-nav-item-link {
-background-color: var(--sb-active)
+    background-color: var(--sb-active);
 }
 
 
 li.acs-nav-item .acs-nav-item-link:hover {
-background-color: var(--button-hover);
+    background-color: var(--button-hover);
 }
 
 
-.acs-side-bar-space-info a, .acs-side-bar .tip, .ia-secondary-container a {
+.acs-side-bar-space-info a, .acs-side-bar .tip {
     color: var(--sb-text-heading);
+}
+
+.ia-secondary-container a {
+    color: var(--sb-text-color);
+    opacity: 89%;
 }
 
 

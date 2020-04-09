@@ -350,6 +350,10 @@ hr {
     background-color: var(--body-section);
 }
 
+.expand-control-text {
+    color: var(--glossary-text)
+}
+
 .tabs-pane p>span {
     color: var(--body-text) !important
 }

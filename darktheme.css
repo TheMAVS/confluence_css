@@ -236,10 +236,6 @@ li.acs-nav-item .acs-nav-item-link:hover {
     font-weight: 600;
 }
 
-.aui-button-label:hover {
-    background-color: var(--button-hover);
-}
-
 .aui-button:hover .aui-icon {
     background-color: var(--button-hover);
 }

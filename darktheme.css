@@ -1,5 +1,5 @@
 
-/*Variables -- Light Theme*/
+/*Variables -- Dark Theme*/
 html {
     /*NAV BAR Variables*/
     --navbar-bg: #000000;
@@ -12,7 +12,7 @@ html {
     --sb-active: #000000;
     /*Body Content Variables*/
     --body-bg: #000000;
-    --body-section: #272727;
+    --body-section: #1D1D1D;
     --body-text: #ffffff;
     --body-accents: #BB86FC;
 

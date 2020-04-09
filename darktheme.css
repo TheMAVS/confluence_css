@@ -39,6 +39,10 @@ html {
     background-color: var(--navbar-bg)
 }
 
+.acs-side-bar-space-info a {
+    color: var(--sb-text-color)
+}
+
 .aui-button-subtle.aui-button {
     background-color: var(--button-bg);
     border-color: transparent;

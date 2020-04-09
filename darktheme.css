@@ -23,7 +23,7 @@ html {
 
     /*Table Glossary*/
     --glossary-bg: #0c0c0c;
-    --glossary-text: #000000;
+    --glossary-text: #FFFFFF;
     --glossary-accent: #4527A0;
 
     /*Footer*/
@@ -345,11 +345,11 @@ hr {
 .expand-container .expand-content {
     background-color: var(--body-bg) !important;
 }
-/*
+
 .expand-container expand-hidden {
-background-color: #1f1f1f;
+    background-color: var(--body-section);
 }
-*/
+
 .tabs-pane p>span {
     color: var(--body-text) !important
 }

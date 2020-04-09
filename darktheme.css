@@ -235,14 +235,9 @@ li.acs-nav-item .acs-nav-item-link:hover {
     background-color: var(--button-hover);
 }
 
-.aui-button:hover .aui-icon {
+.aui-button:hover .aui-icon:hover {
     background-color: var(--button-hover);
 }
-
-.aui-button:active .aui-icon {
-    color: var(--button-hover);
-}
-
 
 .expand-collapse-trigger {
     position: absolute;

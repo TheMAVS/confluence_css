@@ -36,7 +36,7 @@ html {
 /*edit, save for later, watch, share buttons*/
 
 #header .aui-header {
-background-color: var(--navbar-bg)
+    background-color: var(--navbar-bg)
 }
 
 .aui-button.aui-button-subtle {
@@ -45,12 +45,11 @@ background-color: var(--navbar-bg)
     color: var(--button-text);
     font-weight: 400;
 }
-/*
+
 .aui-button-subtle.aui-button:hover {
-color: #FFFFFF;
-background-color: #1d1d1d;
+    background-color: var(--button-hover);
 }
-*/
+
 
 #main #main-header.overlay-header {
    /* border-bottom: 2px solid #1f1f1f;*/
@@ -121,11 +120,6 @@ p {
     color: var(--body-text);
     opacity: 88%;
 }
-/*
-table.confluenceTable th.confluenceTh {
-    background-color: #121212
-}
-*/
 
 /************************Sidebar************************/
 
@@ -202,7 +196,7 @@ div.plugin_pagetree_childtoggle_container>.no-children.icon {
 
 
 li.acs-nav-item .acs-nav-item-link:hover {
-    background-color: var(--button-hover);
+    background-color: var(--navbar-bg);
 }
 
 
@@ -236,9 +230,18 @@ li.acs-nav-item .acs-nav-item-link:hover {
     font-weight: 600;
 }
 
+.aui-button-label:hover {
+    background-color: var(--button-hover);
+}
+
 .aui-button:hover .aui-icon {
     background-color: var(--button-hover);
 }
+
+.aui-button:active .aui-icon {
+    color: var(--button-hover);
+}
+
 
 .expand-collapse-trigger {
     position: absolute;

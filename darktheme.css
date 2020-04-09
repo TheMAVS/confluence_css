@@ -46,7 +46,7 @@ html {
     font-weight: 400;
 }
 
-.aui-button-subtle.aui-button:hover .aui-icon:hover{
+.aui-button-subtle.aui-button:hover .aui-icon {
     background-color: var(--button-hover);
     color: var(--button-text)
 }

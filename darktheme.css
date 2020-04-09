@@ -48,6 +48,7 @@ html {
 
 .aui-button.aui-button-subtle:hover {
     background-color: var(--button-hover);
+    color: var(--button-text)
 }
 
 

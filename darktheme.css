@@ -73,33 +73,33 @@ background-color: #1d1d1d;
 
 #marketo-banner {
     background-color: var(--body-section);
-    opacity: 45%;
+    opacity: 100%;
     padding: 20px 10px 5px 10px;
 }
 
 #banner-search {
     background-color: var(--body-section);
-    opacity: 45%;
+    opacity: 100%;
     padding: 5px 10px 20px 10px;
 }
 
 #featured-content {
     background-color: var(--body-section);
-    opacity: 45%;
+    opacity: 100%;
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
 }
 
 #body-diagram-tabs {
     background-color: var(--body-section);
-    opacity: 45%;
+    opacity: 100%;
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
 }
 
 #tableGlossary {
     background-color: var(--body-section);
-    opacity: 45%;
+    opacity: 100%;
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
 }

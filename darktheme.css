@@ -236,11 +236,8 @@ li.acs-nav-item .acs-nav-item-link:hover {
 }
 
 .aui-button:hover .aui-icon {
-    color: var(--button-hover);
-}
-
-.aui-button:active .aui-icon {
-    color: var(--button-hover)
+    background-color: var(--button-hover);
+    color: var(--button-text);
 }
 
 .expand-collapse-trigger {
